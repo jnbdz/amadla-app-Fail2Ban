@@ -1,0 +1,9 @@
+---
+version: 1
+fail2ban:
+  conf:
+    loglevel: "NOTICE"
+    dbpurgeage: "1d"
+  jail:
+    destemail: "user@email.co"
+    email_sender: "admin@email.co"
